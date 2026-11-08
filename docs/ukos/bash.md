@@ -23,9 +23,12 @@ Inne przykładowe komendy:
 ```bash
 whoami
 ```
+Wyświetla nazwe aktywnego użytkownika;
 ```bash
 cd ~
 ```
+Przechodzi do ścieżki bezwlędnej;
 ```bash
 nano nazwapliku.txt
 ```
+Tworzy plik nazwapliku.txt.

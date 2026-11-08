@@ -6,7 +6,7 @@
 
 
 
-przykład użycia: git clone URL
+przykład użycia: git clone https://github.com/username/repository
 
 
 

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Komendy Bash</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Komendy Bash</h1>
+
+        <nav>
+            <a href="../index.html">Strona główna</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Wprowadzenie</h2>
+        <p>
+            Strona przedstawia podstawowe komendy systemu Linux,
+            ich przykłady oraz zastosowanie.
+        </p>
+
+        <h2>Zasady bezpiecznej pracy w terminalu</h2>
+        <ul>
+            <li>Sprawdzaj, w jakim katalogu się znajdujesz.</li>
+            <li>Uważaj przy usuwaniu plików za pomocą rm.</li>
+            <li>Sprawdzaj poprawność ścieżek.</li>
+            <li>Twórz kopie zapasowe ważnych plików.</li>
+        </ul>
+
+        <h2>Podstawowe komendy</h2>
+
+        <table>
+            <caption>Komendy Linux</caption>
+            <thead>
+                <tr>
+                    <th>Polecenie</th>
+                    <th>Przykład</th>
+                    <th>Opis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>pwd</td>
+                    <td>pwd</td>
+                    <td>Wyświetla aktualną ścieżkę.</td>
+                </tr>
+                <tr>
+                    <td>ls</td>
+                    <td>ls -l</td>
+                    <td>Wyświetla pliki i katalogi.</td>
+                </tr>
+                <tr>
+                    <td>cd</td>
+                    <td>cd docs</td>
+                    <td>Zmienia katalog.</td>
+                </tr>
+                <tr>
+                    <td>mkdir</td>
+                    <td>mkdir folder</td>
+                    <td>Tworzy katalog.</td>
+                </tr>
+                <tr>
+                    <td>touch</td>
+                    <td>touch plik.txt</td>
+                    <td>Tworzy pusty plik.</td>
+                </tr>
+                <tr>
+                    <td>cp</td>
+                    <td>cp plik.txt kopia.txt</td>
+                    <td>Kopiuje plik.</td>
+                </tr>
+                <tr>
+                    <td>mv</td>
+                    <td>mv plik.txt nowy.txt</td>
+                    <td>Przenosi lub zmienia nazwę pliku.</td>
+                </tr>
+                <tr>
+                    <td>rm</td>
+                    <td>rm plik.txt</td>
+                    <td>Usuwa plik.</td>
+                </tr>
+                <tr>
+                    <td>cat</td>
+                    <td>cat plik.txt</td>
+                    <td>Wyświetla zawartość pliku.</td>
+                </tr>
+                <tr>
+                    <td>clear</td>
+                    <td>clear</td>
+                    <td>Czyści ekran terminala.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Źródła</h2>
+        <p>
+            <a href="../docs/ukos/bash.md">Oryginalna ściąga Bash</a>
+        </p>
+        <p>
+            <a href="https://www.gnu.org/software/bash/manual/bash.html">
+                GNU Bash Manual
+            </a>
+        </p>
+
+    </main>
+
+</body>
+</html>

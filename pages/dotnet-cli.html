@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>.NET CLI</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Instrukcja .NET CLI</h1>
+
+        <nav>
+            <a href="../index.html">Strona główna</a>
+            <a href="bash.html">Bash</a>
+            <a href="dotnet-cli.html">.NET CLI</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Wprowadzenie</h2>
+        <p>
+            .NET CLI to narzędzie wiersza poleceń służące do tworzenia,
+            budowania i uruchamiania aplikacji .NET.
+        </p>
+
+        <h2>Podstawowe komendy</h2>
+
+        <table>
+            <caption>Komendy .NET CLI</caption>
+            <thead>
+                <tr>
+                    <th>Polecenie</th>
+                    <th>Opis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>dotnet --version</td>
+                    <td>Wyświetla wersję zainstalowanego .NET SDK.</td>
+                </tr>
+                <tr>
+                    <td>dotnet --list-sdks</td>
+                    <td>Wyświetla zainstalowane wersje SDK.</td>
+                </tr>
+                <tr>
+                    <td>dotnet new list</td>
+                    <td>Wyświetla dostępne szablony projektów.</td>
+                </tr>
+                <tr>
+                    <td>dotnet new console</td>
+                    <td>Tworzy nowy projekt aplikacji konsolowej.</td>
+                </tr>
+                <tr>
+                    <td>dotnet restore</td>
+                    <td>Pobiera zależności projektu.</td>
+                </tr>
+                <tr>
+                    <td>dotnet build</td>
+                    <td>Kompiluje projekt.</td>
+                </tr>
+                <tr>
+                    <td>dotnet run</td>
+                    <td>Uruchamia aplikację.</td>
+                </tr>
+                <tr>
+                    <td>dotnet clean</td>
+                    <td>Usuwa wyniki poprzedniej kompilacji.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Tworzenie i uruchamianie aplikacji</h2>
+
+        <p>
+            Poniżej znajduje się przykładowa sekwencja poleceń
+            potrzebnych do utworzenia i uruchomienia aplikacji.
+        </p>
+
+        <pre>
+dotnet --version
+dotnet --list-sdks
+dotnet new list
+dotnet new console -n MojaAplikacja
+cd MojaAplikacja
+dotnet restore
+dotnet build
+dotnet run
+dotnet clean
+        </pre>
+
+        <h2>Źródła</h2>
+
+        <p>
+            <a href="../docs/prg1/dotnet-cli.md">
+                Oryginalna ściąga .NET CLI
+            </a>
+        </p>
+
+        <p>
+            <a href="https://learn.microsoft.com/pl-pl/dotnet/core/tools/">
+                Oficjalna dokumentacja .NET CLI
+            </a>
+        </p>
+
+    </main>
+
+</body>
+</html>

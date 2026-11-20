@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student IT Knowledge Base</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="bash.html">Bash</a>
+        <a href="git.html">Git</a>
+        <a href="dotnet-cli.html">Dotnet-cli</a>
+    </nav>
+    <main>
+        <section>
+            <h3>Komendy git</h3>
+            <p>Podstawowe komendy git do codziennego użytku</p>
+        </section>
+        <section>
+            <div class="table-scroll">
+                <table class="command-table">
+                    <tr>
+                        <th>Polecenie</th>
+                        <th>Przykład użycia</th>
+                        <th>Znaczenie</th>
+
+                    </tr>
+                    <tr>
+                        <td><code>git clone</code></td>
+                        <td><code>git clone https://github.com/username/repository</code></td>
+                        <td>Pobieranie repozytorium i utworzenie lokalnego katalogu</td>
+                    </tr>
+                    <tr>
+                        <td><code>git status</code></td>
+                        <td><code>git status</code></td>
+                        <td>Sprawdzenie gałęzi oraz plików zmienionych i przygotowanych</td>
+                    </tr>
+                    <tr>
+                        <td><code>git add</code></td>
+                        <td><code>git add docs/warp/git.md</code></td>
+                        <td>Dodanie konkretnego pliku do obszaru staging</td>
+                    </tr>
+                    <tr>
+                        <td><code>git commit</code></td>
+                        <td><code>git commit -m "docs: add Git cheatsheet"</code></td>
+                        <td>Zapis przygotowanych zmian z czytelnym komunikatem</td>
+                    </tr>
+                    <tr>
+                        <td><code>git push</code></td>
+                        <td><code>git push -u origin feature/git-cheatsheet</code></td>
+                        <td>Publikacja nowej gałęzi i ustawienie śledzenia</td>
+                    </tr>
+                    <tr>
+                        <td><code>git pull</code></td>
+                        <td><code>git pull --ff-only origin main</code></td>
+                        <td>Pobranie zmian bez tworzenia nieoczekiwanego merge commita</td>
+                    </tr>
+                    <tr>
+                        <td><code>git fetch</code></td>
+                        <td><code>git fetch origin</code></td>
+                        <td>Pobranie informacji o zmianach bez modyfikowania plików roboczych</td>
+                    </tr>
+                    <tr>
+                        <td><code>git branch</code></td>
+                        <td><code>git branch</code></td>
+                        <td>Wyświetlenie lokalnych gałęzi i oznaczenie aktywnej</td>
+                    </tr>
+                    <tr>
+                        <td><code>git switch</code></td>
+                        <td><code>git switch -c feature/nazwa</code></td>
+                        <td>Utworzenie gałęzi roboczej i przełączenie na nią</td>
+                    </tr>
+                    <tr>
+                        <td><code>git log</code></td>
+                        <td><code>git log --oneline -5</code></td>
+                        <td>Skrócony podgląd pięciu ostatnich commitów</td>
+                    </tr>
+                </table>
+</div>
+    </section>
+    <section>
+        <h3>Procedura pracy:</h3>
+        <ol>
+            <li>Synchronizacja;</li>
+            <li>Branch;</li>
+            <li>Zmiana;</li>
+            <li>Commit;</li>
+            <li>Push;</li>
+            <li>PR.</li>
+        </ol>
+    </section>
+    </main>
+    <footer>
+        <p>Projekt edukacyjny</p>
+        <section>
+            <h3>Dokumentacja</h3>
+            <a href="../docs/warp/git.md">Oryginał</a>
+            <a href="https://git-scm.com/docs">Git</a>
+        </section>
+    </footer>
+</body>
+</html>

@@ -9,8 +9,7 @@ Baza podstawowych komend na zajęcia UKOS, WARP, PPRG
 
 ## Dokumentacja
 - UKOS: https://github.com/PatrykSzweda/student-it-knowledge-base/blob/main/docs/ukos/bash.md
-- WARP: https://github.com/PatrykSzweda/student-it-knowledge-base/blob/main/
-docs/warp/git.md
+- WARP: https://github.com/PatrykSzweda/student-it-knowledge-base/blob/main/docs/warp/git.md
 - PRG1: https://github.com/PatrykSzweda/student-it-knowledge-base/blob/main/docs/prg1/dotnet-cli.md
 
 ## Instrukcja korzystania
